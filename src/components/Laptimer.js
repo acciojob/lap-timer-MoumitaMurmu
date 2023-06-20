@@ -45,14 +45,14 @@ if(isRunning)
     <button onClick={handleLap}> Lap </button>
     <button onClick={handleReset}> Reset </button>
     
-<div>
+<ul>
 {
 lap.map((t)=>(<li>
 {Math.floor(t/60000).toString().padStart(2, "0")}:
 {Math.floor((t/1000)%60).toString().padStart(2, "0")}:
 { Math.floor(t % 1000).toString().slice(0, 2)}</li>))
 }
-</div>
+</ul>
   </>
 );
 }
