@@ -42,8 +42,9 @@ if(isRunning)
     </div>
     <button onClick={handleStart}> Start </button>
     <button onClick={handleStop}> Stop </button>
-    <button onClick={handleReset}> Reset </button>
     <button onClick={handleLap}> Lap </button>
+    <button onClick={handleReset}> Reset </button>
+    
 <div>
 {
 lap.map((t)=>(<li>
