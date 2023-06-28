@@ -1,11 +1,11 @@
 
 import React from "react";
 import './../styles/App.css';
-import Laptimer from "./Laptimer";
+import LapTimer from "./LapTimer";
 const App = () => {
   return (
     <div>
-      <Laptimer/>
+      <LapTimer/>
     </div>
   )
 }
